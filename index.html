@@ -16,8 +16,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
 
+    <!--JQuery Link-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <!--CSS Style Link-->
     <link rel="stylesheet" href="styles.css">
+
 
 </head>
 
@@ -37,7 +41,9 @@
     <br>
     <br>
 
-    <div class="hero">
+
+
+    <div class="hero" style="display: none;">
 
         <!--Left Section (Image)-->
         <div>
@@ -73,9 +79,10 @@
 
     <!-----------CASE STUDIES----------->
 
+    <div id="yellow_background">
     <div class="case_studies_section_title">
-        <h2>CASE STUDIES</h2>
-        <div class="line"></div>
+        <h2 id="case_studies_h2" style="display: none;">CASE STUDIES</h2>
+        <div class="line" style="display: none;"></div>
         <br>
         <br>
     </div>
@@ -83,7 +90,7 @@
     <div class=casestudies>
 
         <!--StoryWorld Case Study-->
-            <a href="./case_study_1.html">
+            <a id="case_study_1" href="./case_study_1.html" style="display: none;">
                 <div class="casestudy">
                     <div id="swbox">
                          <img src="./images/sw_study.png" width="300" height="260" alt="image of storyworld study">
@@ -100,7 +107,7 @@
             </a>
 
         <!--Forest Service Case Study-->
-            <a href="./case_study_2.html">
+            <a id="case_study_2" href="./case_study_2.html" style="display: none;">
                 <div class="casestudy">
                     <div id=fsbox>
                         <img src="./images/fs_study.png" width="300" height="260" alt="image of forest service study">
@@ -117,7 +124,7 @@
             </a>
 
         <!--Ruby's Rainbow Case Study-->
-            <a href="./case_study_3.html">
+            <a id="case_study_3" href="./case_study_3.html" style="display: none;">
                 <div class="casestudy">
                     <div id="rrbox">
                         <img src="./images/rr_study.png" width="300" height="260" alt="image of ruby's rainbow study">
@@ -132,6 +139,7 @@
                         </div>
                     </div>
             </a>
+    </div>
     </div>
 
     <!-----------FOOTER----------->
