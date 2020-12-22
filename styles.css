@@ -163,7 +163,7 @@ h4 {
 
 #yellow_background{
     background: #fff8e1;
-    height: 880px;
+    height: 850px;
 }
 
 /*
@@ -185,6 +185,11 @@ h4 {
   align-items: stretch;
   padding-bottom: 80px;
   background: #fff8e1;
+}
+
+#case_study_1, #case_study_2, #case_study_3 {
+  position: relative;
+  opacity: 0;
 }
 
 .case_study_title {
