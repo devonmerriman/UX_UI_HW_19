@@ -114,6 +114,7 @@ h4 {
 
 .button:hover {
   background: gray;
+  cursor: pointer;
 }
 
 #download_icon {
